@@ -24,7 +24,8 @@ require([
 		'services/mtappDatabaseService',
 		'services/webTorrentService',
 		'controllers/mainController',
-		'controllers/homeController'
+		'controllers/homeController',
+		'controllers/newTorrentController'
 
 		],
 		function(angular, ngRoute, localforage, webtorrent){

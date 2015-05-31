@@ -10,6 +10,10 @@ define(
 				$routeProvider.when('/', {
 					controller: 'HomeController',
 					templateUrl: '../templates/home.tmpl.html'
+				})
+				.when('/add',{
+					controller: 'NewTorrentController',
+					templateUrl: '../templates/addNewTorrent.tmpl.html'
 				});
 			}]);
 
