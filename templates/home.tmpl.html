@@ -1,0 +1,28 @@
+ <html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/core/headers.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/core/scrolling.css"/>
+	</head>
+	<body>
+		<section role="region">
+			<header>
+				<button><span class="icon icon-menu">menu</span></button>
+				<menu type="toolbar">
+					<button><span class="icon icon-add">add</span></button>
+				</menu>
+				<h1>mtApp</h1>
+			</header>
+		</section>
+		<div ng-if="dataAvailable">
+			{{data}}
+		</div>
+		<div ng-if="!dataAvailable">
+			Data not Available.
+		</div>
+		<hr/>
+		<section role="region">
+					
+					
+		</section>
+	</body>
+</html>	
