@@ -12,7 +12,7 @@ require(
 			$scope.data = mtappDatabaseService.getItem();
 			console.log('Data received in HomeController is ' + $scope.data);
 			if($scope.data){
-				$scope.dataAvailable = true;	
+				$scope.dataAvailable = true;
 			}
 			
 		}]);
